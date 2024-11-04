@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for character set and viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>user profile </title>
+    <!-- Linking the style css -->
+    <link rel="stylesheet" href="profile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+   
+    <link rel="stylesheet" href="./ExternalStyleSheet.css">
+    <link rel="stylesheet" href="./PageEditor.css">
+    <!-- global styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/global-styles.css" type="text/css">
+    <link rel="icon" href="images/Logo.png">
+
+
+    
+</head>
+<body>
+
+   <!-- Navigation bar -->
+
+<nav>
+    <a href="home.html"><img class="mainlogo" src="./img/Logo.png" alt="AQUATIC" style="width:200px;"></a>
+
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="profile .html">Your Profile</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="#">About Us</a></li>  
+    </ul>
+    <div class="dropdown">
+        <button class="dropbtn">TOPICS
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="Underwater Activities.html">Underwater Activities</a>
+          <a href="Books about sea.html">Books about Sea</a>
+          <a href="Sea Plants.html">Sea Plants</a>
+          <a href="sea creatures.html">Sea Creatures</a>
+        </div>
+    </div>
+</nav>
+
+
+    <!-- Main content -->
+
+<div class="main-main-content">
+    <!-- Section title -->
+    <div class="section-title">
+        <br><br><br><br><br><br><br><br>
+        <h1>Welcome to user profile</h1>
+    </div>
+
+  <!-- Back button -->
+    <div id="back-btn">
+        <i class="bi bi-arrow-left back-btn"></i>
+    </div>
+
+    <!-- Progress indicator -->
+    <h2 class="centere"><span id="pr">0%</span></h2>
+   
+    
+    <div class="progress-bar">
+        <div class="progress-fill" id="progress-fill"></div>
+    </div>
+    
+ <!-- User profile form -->
+
+    <div class="container">
+        <h2 id="step">Step 1</h2>
+        <div class="form" id="name">
+            <div class="input-group">
+                <label for="name-input">Enter Your Name:</label>
+                <input type="text" id="name-input" name="name" required>
+                <input id="user-form" type="submit" value="Submit">
+            </div>
+        </div>
+        
+        <div class="form" style="display: none;" id="surname">
+            <div class="input-group">
+                <label for="surname-input">Enter Your Surname:</label>
+                <input type="text" id="surname-input" name="password" required>
+                <input id="surname-form" type="submit" value="Submit">
+            </div>
+        </div>
+
+        <div class="form" style="display: none;" id="age">
+            <div class="input-group">
+                <label for="age-input">Enter Your Age:</label>
+                <input type="number" id="age-input" name="age" required>
+                <input id="age-form" type="submit" value="Submit">
+            </div>
+        </div>
+
+        <div class="form" style="display: none;" id="gender">
+            <div class="input-group">
+                <label for="gender-input">Enter Your Gender:</label>
+                
+                <select name="gender" id="gender-input">
+                    <option value="0">Select</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Custom">Custom</option>
+                </select>
+
+                <input id="gender-form" type="submit" value="Submit">
+            </div>
+        </div>
+
+        <div class="form" style="display: none;" id="agree">
+            <div class="input-group">
+                <label for="agree-input">Agree with terms and conditions ? </label>
+                <input type="checkbox" name="agree" id="agree-input">
+                <input id="agree-form" type="submit" value="Submit">
+            </div>
+        </div>
+
+
+
+
+        <div class="form" style="display: none;" id="occupation">
+            <div class="input-group">
+                <label for="occupation-input">Enter your occupation ? </label>
+                <input type="text" name="occupation" id="occupation-input">
+                <input id="occupation-form" type="submit" value="Submit">
+            </div>
+        </div>
+
+        <div class="form" style="display: none;" id="intrests">
+            <div class="input-group">
+                <label for="intrests-input">Enter your personal intrests ? </label>
+                <input type="text" name="intrests" id="intrests-input">
+                <input id="intrests-form" type="submit" value="Submit">
+            </div>
+        </div>
+
+        <div class="form" style="display: none;" id="fundraising">
+            <div class="input-group">
+                <label for="fundraising-input">Do you like fundraising ? </label>
+                <input type="text" name="fundraising" id="fundraising-input">
+                <input id="fundraising-form" type="submit" value="Submit">
+            </div>
+        </div>
+
+
+        <div class="form" style="display: none;" id="education">
+            <div class="input-group">
+                <label for="education-input">What's your highest level of education?</label>
+                <select name="education" id="education-input">
+                    <option value="0">Select</option>
+                    <option value="High School">High School</option>
+                    <option value="Bachelor's Degree">Bachelor's Degree</option>
+                    <option value="Master's Degree">Master's Degree</option>
+                    <option value="Ph.D.">Ph.D.</option>
+                    <option value="Other">Other</option>
+                </select>
+                <input id="education-form" type="submit" value="Submit">
+            </div>
+        </div>
+
+
+
+
+        <div class="form" style="display: none;" id="fish">
+            <div class="input-group">
+                <label for="fish-input">Do you like fish ?</label>
+                <select name="fish" id="fish-input">
+                    <option value="0">Select</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                </select>
+                <input id="fish-form" type="submit" value="Submit">
+            </div>
+        </div>
+
+        <div class="form" style="display: none;" id="water">
+            <div class="input-group">
+                <label for="water-input">What' do you think about life under water ? </label>
+                <input type="text" name="water" id="water-input">
+                <input id="water-form" type="submit" value="Submit">
+            </div>
+        </div>
+        
+        <div class="form" style="display: none;" id="income">
+            <div class="input-group">
+                <label for="income-input">What's your approximate annual income?</label>
+                <input type="number" name="income" id="income-input">
+                <input id="income-form" type="submit" value="Submit">
+            </div>
+        </div>
+
+        <div class="form" style="display: none;" id="suggestions">
+            <div class="input-group">
+                <label for="feedback-input">Any feedback or suggestions?</label>
+                <textarea name="feedback" id="feedback-input" rows="4"></textarea>
+                <input id="feedback-form" type="submit" value="Submit">
+            </div>
+        </div>
+
+        <!-- Display box for entered information -->
+
+        <div class="display-box" style="display: none;">
+            <h2>Entered Information:</h2>
+
+            <div id="step1" style="display: none;">
+                <h3>Step 1</h3>
+                <p><strong>Name:</strong> <span id="display_name"></span></p>
+                <p><strong>Surname:</strong> <span id="display_surname"></span></p>
+                <p><strong>Age:</strong> <span id="display_age"></span></p>
+                <p><strong>Gender:</strong> <span id="display_gender"></span></p>
+                <p><strong>Terms and Conditions:</strong> <span id="display_terms"></span></p>
+                <br>
+            </div>
+
+            <div id="step2" style="display: none;">
+                <h3>Step 2</h3>
+                <p><strong>Occupation:</strong> <span id="display_occupation"></span></p>
+                <p><strong>Intrests:</strong> <span id="display_intrests"></span></p>
+                <p><strong>Fundraising:</strong> <span id="display_fundraising"></span></p>
+                <p><strong>Education:</strong> <span id="display_education"></span></p>
+                <br>
+            </div>
+
+            <div id="step3" style="display: none;">
+                <h3>Step 3</h3>
+                <p><strong>Do you like fish:</strong> <span id="display_fish"></span></p>
+                <p><strong>Idea about Life under water:</strong> <span id="display_water"></span></p>            
+                <p><strong>Income:</strong> <span id="display_income"></span></p>
+                <p><strong>Suggestions:</strong> <span id="display_suggestions"></span></p>
+                <br>
+            </div>
+
+        </div>
+    </div>
+</div>
+<br><br><br><br><br><br>
+
+    
+    <!-- Linking the script -->
+    <script src="profile.js"></script>
+
+    <footer class="footer" >
+        <div class="footer-main">
+            <div class="footer-row footer-left">
+                <div class="footer-text">
+                    <h1>&copy;A Q U A T I C</h1>
+                    <br>
+                    <p>7637 Laurel Dr. King Of Prussia,</br> PA 19406</p>
+                    <br>
+                    <p>AQUATIC: Dive in to quality, Explore with confidence. </p>
+                </div>
+            </div>
+            <div class="footer-row footer-middle">
+                <h2>About Us</h2>
+                <div class="footer-right-line"></div>
+                <p>Dive into the extraordinary with Aquatic!. we're your go-to destination for all things underwater. From sleek scuba gear to trendy snorkeling essentials, we've got you covered. Our passionate team is here to guide you through the depths with style and expertise. Join us and make a splash - adventure awaits at Aquatic!</p>
+            </div>
+            <div class="footer-row footer-middle-right">
+                <div><a href="sitemap.html"><button class="button">Site Map</button></a></div>
+                <div><a href="Feedback Form.html"> <button class="button">Have Feedback ?</button></a></div>
+            </div>
+            <div class="footer-row footer-right">
+                <h2>Stay Connected</h2>
+                <div class="footer-right-line"></div>
+                <div class="links">
+                    <div class="icons"><a href="#" class="fa fa-facebook"></a></div>
+                    <div class="icons"><a href="#" class="fa fa-twitter"></a></div>
+                    <div class="icons"><a href="#" class="fa fa-google"></a></div>
+                    <div class="icons"><a href="#" class="fa fa-linkedin"></a></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+  
+    <div id="right-bottom"><span style="font-size:20px;cursor:pointer;position:fixed;bottom:20px;right:20px;color:#fbfae2;" onclick="openNav()">&#9776; <a href="pageEditer_student_3.html" class="page-editor-link">Page Editor</a></span>
+    </div>
+  
+    <script>
+        window.addEventListener('scroll', function() {
+        const nav = document.querySelector('nav');
+        const navHeight = nav.offsetHeight;
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        if (scrollTop > navHeight) {
+           nav.classList.add('scrolled', 'nav-background');
+        } else {
+            nav.classList.remove('scrolled', 'nav-background');
+        }
+    });
+  
+    </script>
+  </body>
+  </html>

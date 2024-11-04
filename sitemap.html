@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./sitemap.css">
+
+    <link rel="stylesheet" href="./ExternalStyleSheet.css">
+    <link rel="stylesheet" href="./PageEditor.css">
+    <!-- global styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/global-styles.css" type="text/css">
+    <link rel="icon" href="images/Logo.png">
+
+    <title>SVG MAP</title>
+
+   
+
+    
+</head>
+<body>
+    
+   <nav>
+    <a href="home.html"><img class="mainlogo" src="./img/Logo.png" alt="AQUATIC" style="width:200px;"></a>
+    
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="profile .html">Your Profile</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="about us.html">About Us</a></li>  
+        </ul>
+        <div class="dropdown">
+            <button class="dropbtn">TOPICS
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="Underwater Activities.html">Underwater Activities</a>
+              <a href="Books about sea.html">Books about Sea</a>
+              <a href="Sea Plants.html">Sea Plants</a>
+              <a href="sea creatures.html">Sea Creatures</a>
+            </div>
+        </div>
+    
+    </nav> 
+    
+    </nav>
+    <h1 class="header">Sitemap</h1>
+    <svg id="Layer_1" viewBox="0 0 500 400">
+        <g > 
+            <!--top rectangles-->
+            <rect class="rec-gallery" x="105" y="40"  rx="10" ry="10" width="60" height="45"></rect>
+            <a href="gallery.html" target="_blank">
+                <text class="text-gallery" x="110.5" y="68" >Gallery</text>
+           </a>
+           <rect class="rec-shop" x="225" y="40"  rx="10" ry="10" width="60" height="45"></rect>
+           <a href="Catogarize.html" target="_blank">
+               <text class="text-shop" x="236.5" y="68" >Shop</text>
+          </a>
+          <rect class="rec-about" x="345" y="40"  rx="10" ry="10" width="60" height="45"></rect>
+          <a href="about us.html" target="_blank">
+              <text class="text-about" x="350" y="68" style="font-size: small;" >About Us</text>
+         </a>
+
+
+         <!--home rectangle-->
+        <rect class="home" x="220.5" y="140"  rx="50" ry="10" width="80" height="50"></rect>
+        <a href="home.html" target="_blank">
+            <text class="text-home" x="234" y="170" style="font-size: large "  >Home</text>
+        </a>
+        <rect class="rec-quiz" x="105" y="240"  rx="10" ry="10" width="110" height="45"></rect>
+        <a href="profile.html" target="_blank">
+            <text class="text-quiz" x="118" y="267" >User Profile</text>
+        </a>
+
+       
+        
+        <rect class="rec-form" x="345" y="240"  rx="10" ry="10" width="90" height="45"></rect>
+        <a href="Feedback form.html" target="_blank">
+            <text class="text-form" x="358" y="266" >Feedback</text>
+        </a>
+        <!--paths-->
+        <!--to shop-->
+        
+        <path class="line" d="M255,138.5 255,86.5"></path>
+        <!--to gallery and about-us-->
+        <path class="line" d="M255,112.5 134,112.5 134,86.5 134,112.5 134,86.5 134,112.5 377,112.5 377,86.5 377,112.5"></path>
+        <!--to product-->
+        <path class="line" d="M255,191.5 255,238.5"></path>
+        <!--to quiz and form-->
+        <path class="line" d="M255,215 134,215 134,240 134,215 134,240 134,215 377,215 377,240 377,215"></path>
+
+        <!--sub product recs-->
+        
+        
+        
+        
+        <!--paths to sub products-->
+        
+        </g>
+    </svg>
+    
+   
+    <footer class="footer" >
+        <div class="footer-main">
+            <div class="footer-row footer-left">
+                <div class="footer-text">
+                    <h1>&copy;A Q U A T I C</h1>
+                    <br>
+                    <p>7637 Laurel Dr. King Of Prussia,</br> PA 19406</p>
+                    <br>
+                    <p>AQUATIC: Dive in to quality, Explore with confidence. </p>
+                </div>
+            </div>
+            <div class="footer-row footer-middle">
+                <h2>About Us</h2>
+                <div class="footer-right-line"></div>
+                <p>Dive into the extraordinary with Aquatic!. we're your go-to destination for all things underwater. From sleek scuba gear to trendy snorkeling essentials, we've got you covered. Our passionate team is here to guide you through the depths with style and expertise. Join us and make a splash - adventure awaits at Aquatic!</p>
+            </div>
+            <div class="footer-row footer-middle-right">
+                <div><a href="sitemap.html"><button class="button">Site Map</button></a></div>
+                <div><a href="Feedback Form.html"> <button class="button">Have Feedback ?</button></a></div>
+            </div>
+            <div class="footer-row footer-right">
+                <h2>Stay Connected</h2>
+                <div class="footer-right-line"></div>
+                <div class="links">
+                    <div class="icons"><a href="#" class="fa fa-facebook"></a></div>
+                    <div class="icons"><a href="#" class="fa fa-twitter"></a></div>
+                    <div class="icons"><a href="#" class="fa fa-google"></a></div>
+                    <div class="icons"><a href="#" class="fa fa-linkedin"></a></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+  
+    <div id="right-bottom"><span style="font-size:20px;cursor:pointer;position:fixed;bottom:20px;right:20px;color:#fbfae2;" onclick="openNav()">&#9776; <a href="pageEditer_student_4.html" class="page-editor-link">Page Editor</a></span>
+    </div>
+  
+    <script>
+        window.addEventListener('scroll', function() {
+        const nav = document.querySelector('nav');
+        const navHeight = nav.offsetHeight;
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        if (scrollTop > navHeight) {
+           nav.classList.add('scrolled', 'nav-background');
+        } else {
+            nav.classList.remove('scrolled', 'nav-background');
+        }
+    });
+  
+    </script>
+</body>
+</html>

@@ -1,0 +1,140 @@
+@font-face {
+    font-family: myFont;
+    src: url(./Poppins/Poppins-Black.ttf);
+}
+
+.header{
+    padding-top: 10%;
+}
+.header:before
+{
+	content: '';
+	position: absolute;
+	width: 200px;
+	height: 3px;
+	background-color: rgb(143, 0, 0);
+	top:  200px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+/* Custom CSS for the creative category boxes */
+body {
+    background-color:#9abdff;
+    font-family: Arial, sans-serif;
+    background-image: url("path/to/your/underwater-background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+    overflow-y: auto;
+}
+
+.category {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.category h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.category-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.category a {
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border: 2px solid black;
+}
+
+.category a:hover {
+    transform: translateY(-5px) scale(1.05);
+}
+
+.category a:hover .category-name {
+    transform: translateY(0);
+}
+
+.category a:hover .category-preview {
+    transform: translateY(-100%);
+}
+
+.category a .category-preview {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:white;
+    transition: transform 0.5s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(100%);
+}
+
+.category a .category-preview h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+ 
+.category a .category-name {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #000;
+    width: 100%;
+    border-radius: 0 0 20px 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.category.h3 {
+    padding: 20px; /* Add padding for inner content */
+    text-align: center; /* Center-align text */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #000; /* Set text color */
+    font-size: 16px; /* Adjust font size */
+    font-weight: bold; /* Make the text bold */
+}
+
+.category a img {
+    transition: transform 0.5s ease;
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.category a:hover img {
+    transform: scale(1.1);
+}

@@ -1,0 +1,139 @@
+
+        
+        
+        
+        
+        
+        
+/* Reset styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+        /* Base styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to bottom right, #a69898, #f0f0f0);
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        } 
+        
+        /* Container styles */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Section styles */
+        .section {
+            padding: 50px 0;
+        }
+
+        .slogan-section {
+            text-align: center; /* Center align text */
+            padding: 50px 0; /* Add padding */
+        }
+
+        .slogan-section h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+
+
+
+
+        /* About Us section */
+        .about-section {
+            background-color: #c8c1c1;
+        }       
+        
+        h1 {
+            font-size: 36px; /* Change font size */
+            color: #444; /* Change color */
+            text-align: center; /* Center align */
+            margin-bottom: 40px; /* Add margin bottom */
+            margin-top: +20px; /* Move the heading slightly upward */
+            transition: font-size 0.5s, margin-bottom 0.5s; /* Add transition for font size and margin */
+        }
+
+        p  {
+            font-size:large;
+        }
+
+        .about-section p {
+            font-size: large;
+            line-height: 1.5;
+            transition: font-size 0.5s; /* Add transition for font size */
+        }
+
+        .about-section:hover h1 {
+            font-size: 40px; /* Change font size on hover */
+            margin-bottom: 45px; /* Change margin on hover */
+        }
+        
+        
+        .team-member {
+            display: inline-block;
+            width: 225px;
+            height: auto;
+            margin: 20px;
+            padding: 20px;
+            background-color: #ffffff;
+            border: 2px solid #dad9d9;
+            border-radius: 7px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+        }
+
+        .team-member:hover {
+            transform: translateY(-28px);
+            box-shadow: 0 24px 48px rgba(0, 0, 0, 0.4);
+            background-color: #c8bfbf;
+        }
+        
+        /* Team member photo styles */
+        .member-photo {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        /* Member information styles */
+        .member-info {
+            padding: 20px;
+        }
+
+        .member-name {
+            margin: 0;
+            font-size: 24px;
+            color: #333;
+        }
+
+        .member-role {
+            margin: 5px 0 15px;
+            font-size: 18px;
+            color: #666;
+        }
+
+        .member-description {
+            color: #444;
+            font-size: 16px;
+            line-height: 1.5;
+        }  
+        
+ 
+        .team-container {
+            display: flex; /* Change display property to flex */
+            flex-wrap: wrap; /* Allow wrapping if the items exceed the container width */
+            justify-content: center; /* Align items horizontally in the center */
+            gap: 20px; /* Add gap between team members */
+        }
+
+ 

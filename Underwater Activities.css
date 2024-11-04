@@ -1,0 +1,122 @@
+/* Define custom font */
+@font-face {
+    font-family: myFont;
+    src: url(./Poppins/Poppins-Black.ttf);
+}
+
+/* Header styles */
+.header{
+    padding-top: 10%;
+}
+
+/* Header underline */
+.header:before
+{
+	content: '';
+	position: absolute;
+	width: 200px;
+	height: 3px;
+	background-color: rgb(143, 0, 0);
+	top:  200px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #9abdff;
+    line-height: 1.6;
+}
+
+/* Heading Styles */
+.heading {
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.heading h1 {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 20px;
+    position: relative;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.heading p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* Container Styles */
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s ease;
+}
+
+.container:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* About Section Styles */
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about_image {
+    flex: 1;
+    margin-right: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about_image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.about_image:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.about_content {
+    flex: 1;
+}
+
+.about_content h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.about_content p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+}
+
+/* Conclusion Section Styles */
+.about_content:last-child {
+    margin-top: 20px;
+}

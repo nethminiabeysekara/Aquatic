@@ -1,0 +1,113 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Setting background color and font for the whole page */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Styling the sea plants section */
+
+.sea.plants {
+    background-color: #2c3e50; /* Dark blue background */
+    padding: 50px;
+    text-align: center;
+}
+
+.sea.plants h1 {
+    font-size: 48px; /* Larger font size */
+    margin-bottom: 30px; /* Increased bottom margin */
+}
+
+.sea.plants p {
+    font-size: 20px; /* Larger font size */
+    line-height: 1.8; /* Increased line height for better readability */
+}
+
+/* Styling the coral reefs section */
+.corols-reefs {
+    background-color: #4081c7; /* Turquoise background */
+    color: #fff; /* White text */
+    padding: 50px;
+    text-align: center;
+}
+
+.corols-reefs h1 {
+    font-size: 48px; /* Larger font size */
+    margin-bottom: 30px; /* Increased bottom margin */
+}
+
+.corols-reefs p {
+    font-size: 20px; /* Larger font size */
+    line-height: 1.8; /* Increased line height for better readability */
+    color: #000;
+}
+
+/* Styling the team section */
+.details {
+    padding: 50px;
+    margin-top: 30px;
+}
+
+.details h1 {
+    font-size: 36px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Styling individual plant cards */
+.main.plants {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Creating four columns */
+    gap: 20px; /* Adding gap between grid items */
+}
+
+.plantname {
+    padding: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: rgb(41, 131, 195);
+    background-size: cover;
+    transition: all 0.5s ease;
+}
+
+.plantname:hover {
+    background-image: url(corala.png);
+    transform: scale(1.05); /* Increase size on hover */
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.3); /* Add box shadow on hover */
+    transition: .5s;
+    
+}
+.plant-photo {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.plant-info {
+    padding: 20px;
+    text-align: left;
+}
+
+.plant-name {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #000;
+}
+.plant-description {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify;
+    color: #000;
+}
+.plant-description:hover {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify;
+    color: #fff;
+    transition: .5s;
+}

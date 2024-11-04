@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+  <title>Diving Essentials</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+  
+    <link rel="stylesheet" href="./ExternalStyleSheet.css">
+    <link rel="stylesheet" href="./PageEditor.css">
+    <link rel="stylesheet" href="./Show Cart .css">
+    <link rel="icon" href="images/Logo.png">
+    <!-- global styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/global-styles.css" type="text/css">
+
+  
+</head>
+<body>
+
+  <nav>
+    <a href="home.html"><img class="mainlogo" src="./img/Logo.png" alt="AQUATIC" style="width:200px;"></a>
+
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="profile .html">Your Profile</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about us.html">About Us</a></li>  
+    </ul>
+    <div class="dropdown">
+      <button class="dropbtn">TOPICS
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="Underwater Activities.html">Underwater Activities</a>
+        <a href="Books about sea.html">Books about Sea</a>
+        <a href="Sea Plants.html">Sea Plants</a>
+        <a href="sea creatures.html">Sea Creatures</a>
+      </div>
+    </div>
+
+</nav> 
+
+  <div id="sidebar" class="sidebar">
+    <h2>Order Summary</h2><br>
+    <ul id="order-items" class="order-items">
+        <!-- Order items will be dynamically added here -->
+    </ul>
+    <hr>
+    <p>Total Amount <span id="total-price">Rs 0.00</span></p>
+    <i id="close-sidebar-icon" class="fas fa-times"></i>
+    <button id="clear-cart-button">Clear Cart</button>
+    <button id="checkout-button">Checkout </button>
+</div>
+
+
+  <img id="header-image" src="images/mikes_dive_store_diving_collections_10.webp" alt="Header Image">
+  <div class="overlay-text">
+    <strong>Diving Cylinders</strong>
+  </div>
+
+  <div class="container">
+  
+
+  <div class="products">
+      <div class="product">
+        <img src="images/dc.jpeg" alt="Cylinders" class="product-image">
+        <div class="product-details">
+          <h2>Sherwood C100 Cylinder</h2>   
+          <p class="price">Rs 15000.00</p>
+          <div class="options">
+            <label for="size">Size:</label>
+            <select name="size" id="size">
+              <option value="small">Small</option>
+              <option value="medium">Medium</option>
+              <option value="large">Large</option>
+            </select><br>
+            <label for="color">Color:</label>
+            <select name="color" id="color">
+              <option value="blue">Blue</option>
+              <option value="red">Red</option>
+              <option value="green">Green</option>
+            </select><br>
+          
+          </div>
+          <button class="btn">Add to Cart</button>
+        </div>
+      </div>
+    
+
+         
+ 
+      <div class="product">
+        <img src="images/dc2.png" alt="db" class="product-image">
+        <div class="product-details">
+          <h2>Catalina S80  ScubaTank</h2>
+          <p class="price">Rs 40000.00</p>
+          <div class="options">
+            <label for="size">Size:</label>
+            <select name="size" id="size">
+              <option value="small">Small</option>
+              <option value="medium">Medium</option>
+              <option value="large">Large</option>
+            </select><br>
+            <label for="color">Color:</label>
+            <select name="color" id="color">
+              <option value="blue">Blue</option>
+              <option value="red">Red</option>
+              <option value="green">Green</option>
+            </select><br>
+          
+          </div>
+          <button class="btn">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product">
+          <img src="images/dc3.jpeg" alt="db" class="product-image">
+          <div class="product-details">
+            <h2>Catalina Pony Cylinder
+            </h2>
+            <p class="price">Rs 28000.00</p>
+            <div class="options">
+              <label for="size">Size:</label>
+              <select name="size" id="size">
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+              </select><br>
+              <label for="color">Color:</label>
+              <select name="color" id="color">
+                <option value="blue">Blue</option>
+                <option value="red">Red</option>
+                <option value="green">Green</option>
+              </select><br>
+            
+            </div>
+            <button class="btn">Add to Cart</button>
+          </div>
+        </div>
+
+
+        <div class="product">
+          <img src="images/dc5.jpeg" alt="db" class="product-image">
+          <div class="product-details">
+            <h2>Faber HP 80
+            </h2>
+            <p class="price">Rs 30000.00</p>
+            <div class="options">
+              <label for="size">Size:</label>
+              <select name="size" id="size">
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+              </select><br>
+              <label for="color">Color:</label>
+              <select name="color" id="color">
+                <option value="blue">Blue</option>
+                <option value="red">Red</option>
+                <option value="green">Green</option>
+              </select><br>
+           
+            </div>
+            <button class="btn">Add to Cart</button>
+          </div>
+        </div>
+
+      <div class="product">
+          <img src="images/ScubaTank.png" alt="db" class="product-image">
+          <div class="product-details">
+            <h2>Faber HP 100
+            </h2>
+            <p class="price">Rs 24000.00</p>
+            <div class="options">
+              <label for="size">Size:</label>
+              <select name="size" id="size">
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+              </select><br>
+              <label for="color">Color:</label>
+              <select name="color" id="color">
+                <option value="blue">Blue</option>
+                <option value="red">Red</option>
+                <option value="green">Green</option>
+              </select><br>
+            </div>
+            <button class="btn">Add to Cart</button>
+          </div>
+       </div>
+
+        <div class="product">
+          <img src="images/images.jpeg" alt="db" class="product-image">
+          <div class="product-details">
+            <h2>1L Drysuit Inflation Cylinder
+            </h2>
+            <p class="price">Rs 24000.00</p>
+            <div class="options">
+              <label for="size">Size:</label>
+              <select name="size" id="size">
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+              </select><br>
+              <label for="color">Color:</label>
+              <select name="color" id="color">
+                <option value="blue">Blue</option>
+                <option value="red">Red</option>
+                <option value="green">Green</option>
+              </select><br>
+            </div>
+            <button class="btn">Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="images/images (1).jpeg" alt="db" class="product-image">
+          <div class="product-details">
+            <h2>6cf Drysuit Inflation Cylinder - Aluminium
+            </h2>
+            <p class="price">Rs 24000.00</p>
+            <div class="options">
+              <label for="size">Size:</label>
+              <select name="size" id="size">
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+              </select><br>
+              <label for="color">Color:</label>
+              <select name="color" id="color">
+                <option value="blue">Blue</option>
+                <option value="red">Red</option>
+                <option value="green">Green</option>
+              </select><br>
+            </div>
+            <button class="btn">Add to Cart</button>
+          </div>
+        </div>
+        </div>
+      </div>
+
+
+  <script src="script1.js"></script>
+
+ 
+
+  <footer class="footer" >
+    <div class="footer-main">
+        <div class="footer-row footer-left">
+            <div class="footer-text">
+                <h1>&copy;A Q U A T I C</h1>
+                <br>
+                <p>7637 Laurel Dr. King Of Prussia,</br> PA 19406</p>
+                <br>
+                <p>AQUATIC: Dive in to quality, Explore with confidence. </p>
+            </div>
+        </div>
+        <div class="footer-row footer-middle">
+            <h2>About Us</h2>
+            <div class="footer-right-line"></div>
+            <p>Dive into the extraordinary with Aquatic!. we're your go-to destination for all things underwater. From sleek scuba gear to trendy snorkeling essentials, we've got you covered. Our passionate team is here to guide you through the depths with style and expertise. Join us and make a splash - adventure awaits at Aquatic!</p>
+        </div>
+        <div class="footer-row footer-middle-right">
+            <div><a href="sitemap.html"><button class="button">Site Map</button></a></div>
+            <div><a href="Feedback Form.html"> <button class="button">Have Feedback ?</button></a></div>
+        </div>
+        <div class="footer-row footer-right">
+            <h2>Stay Connected</h2>
+            <div class="footer-right-line"></div>
+            <div class="links">
+                <div class="icons"><a href="#" class="fa fa-facebook"></a></div>
+                <div class="icons"><a href="#" class="fa fa-twitter"></a></div>
+                <div class="icons"><a href="#" class="fa fa-google"></a></div>
+                <div class="icons"><a href="#" class="fa fa-linkedin"></a></div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div id="right-bottom"><span style="font-size:20px;cursor:pointer;position:fixed;bottom:20px;right:20px;color:#fbfae2;" onclick="openNav()">&#9776; <a href="pageEditer_student_1.html" class="page-editor-link">Page Editor</a></span>
+</div>
+
+<script>
+    window.addEventListener('scroll', function() {
+    const nav = document.querySelector('nav');
+    const navHeight = nav.offsetHeight;
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    if (scrollTop > navHeight) {
+       nav.classList.add('scrolled', 'nav-background');
+    } else {
+        nav.classList.remove('scrolled', 'nav-background');
+    }
+});
+
+</script>
+</body>
+</html>
+
